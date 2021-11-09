@@ -56,13 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\02CameraShake\CameraShakeOnStart.cs" />
+    <Compile Include="Assets\02CameraShake\SpawnRandomly.cs" />
+    <Compile Include="Assets\02CameraShake\CameraShake.cs" />
     <Compile Include="Assets\HandleScript.cs" />
     <Compile Include="Assets\Zoom.cs" />
     <Compile Include="Assets\Follower.cs" />
     <Compile Include="Assets\01Snake\Snake.cs" />
-    <Compile Include="Assets\02CameraShake\CameraShake.cs" />
-    <Compile Include="Assets\02CameraShake\CameraShakeOnStart.cs" />
-    <Compile Include="Assets\02CameraShake\SpawnRandomly.cs" />
+    <Compile Include="Assets\06TimeSlow\ChangePitchToTimeScale.cs" />
+    <Compile Include="Assets\06TimeSlow\SpawnObjects.cs" />
+    <Compile Include="Assets\06TimeSlow\TimeSlow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
