@@ -59,6 +59,10 @@
     <Compile Include="Assets\HandleScript.cs" />
     <Compile Include="Assets\Zoom.cs" />
     <Compile Include="Assets\Follower.cs" />
+    <Compile Include="Assets\01Snake\Snake.cs" />
+    <Compile Include="Assets\02CameraShake\CameraShake.cs" />
+    <Compile Include="Assets\02CameraShake\CameraShakeOnStart.cs" />
+    <Compile Include="Assets\02CameraShake\SpawnRandomly.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
