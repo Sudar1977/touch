@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\HandleScript.cs" />
     <Compile Include="Assets\Zoom.cs" />
+    <Compile Include="Assets\Follower.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
