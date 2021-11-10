@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/08AddExplosionForce/StandardExplosionOnButton.unity
+- path: Assets/53ClickToMove/ClickToMove.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

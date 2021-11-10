@@ -57,19 +57,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\08AddExplosionForce\ContinuousExplosionForce.cs" />
+    <Compile Include="Assets\12ParticleGlow\GridSpawnerShell.cs" />
     <Compile Include="Assets\02CameraShake\CameraShakeOnStart.cs" />
     <Compile Include="Assets\02CameraShake\SpawnRandomly.cs" />
     <Compile Include="Assets\02CameraShake\CameraShake.cs" />
+    <Compile Include="Assets\09GridSpawner\SpawnOnButton.cs" />
     <Compile Include="Assets\HandleScript.cs" />
+    <Compile Include="Assets\09GridSpawner\DestroyAfterTime.cs" />
     <Compile Include="Assets\06TimeSlow\ChangePitchToTimeScale.cs" />
+    <Compile Include="Assets\13LightningBall\RandomTextureOffset.cs" />
+    <Compile Include="Assets\53ClickToMove\MoveToClickLocation.cs" />
     <Compile Include="Assets\08AddExplosionForce\ExplodeOnButton.cs" />
+    <Compile Include="Assets\09GridSpawner\GridSpawner.cs" />
     <Compile Include="Assets\Zoom.cs" />
     <Compile Include="Assets\Follower.cs" />
+    <Compile Include="Assets\14ZeroG\ZeroGMovement.cs" />
     <Compile Include="Assets\01Snake\Snake.cs" />
+    <Compile Include="Assets\03LaserDot\ProjectLaser.cs" />
+    <Compile Include="Assets\14ZeroG\ZeroGRotation.cs" />
+    <Compile Include="Assets\09GridSpawner\MoveForward.cs" />
     <Compile Include="Assets\06TimeSlow\TimeSlow.cs" />
     <Compile Include="Assets\06TimeSlow\SpawnObjects.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\03LaserDot\Readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
