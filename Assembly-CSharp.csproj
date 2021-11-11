@@ -101,6 +101,7 @@
     <Compile Include="Assets\20GettingInAVehicle\SwitchToVehicleOnInteract.cs" />
     <Compile Include="Assets\06TimeSlow\SpawnObjects.cs" />
     <Compile Include="Assets\Sample Assets\Characters\First Person Character\Scripts\FirstPersonHeadBob.cs" />
+    <Compile Include="Assets\03LaserDot\Mouse_Look.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\03LaserDot\Readme.txt" />

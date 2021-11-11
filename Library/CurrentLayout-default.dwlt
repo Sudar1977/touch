@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 100
+  controlID: 103
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 101
+  controlID: 104
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 102
+  controlID: 105
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,20 +398,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 04efffff
-      m_LastClickedID: -4348
-      m_ExpandedIDs: 04efffff16efffff20efffffeef1ffff06f3ffff5af5ffff68f5ffff50fbffff52fbffff
+      m_SelectedIDs: ca3b0000
+      m_LastClickedID: 15306
+      m_ExpandedIDs: bcf7ffffcef7ffffdef9ffffe8f9ffffeaf9ffff52fbffffde3b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: DualTouchControls
-        m_OriginalName: DualTouchControls
+        m_Name: Plane
+        m_OriginalName: Plane
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -4320
+        m_UserData: 15338
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 575, y: 265.5, z: 0}
+    m_Target: {x: 0, y: 1.7043, z: -2.8234}
     speed: 2
-    m_Value: {x: 575, y: 265.5, z: 0}
+    m_Value: {x: 0, y: 1.7043, z: -2.8234}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.103972666, y: 0.89026666, z: -0.2553347, w: -0.36251786}
   m_Size:
-    m_Target: 633.3366
+    m_Target: 10
     speed: 2
-    m_Value: 633.3366
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -603,22 +603,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sample Assets/Cross Platform Input/Prefabs
+    - Assets/03LaserDot
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Sample Assets/Cross Platform Input/Prefabs
+  - Assets/03LaserDot
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\geekbrains.ru\Projects\Unity\touch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 279}
-    m_SelectedIDs: 803b0000
-    m_LastClickedID: 15232
-    m_ExpandedIDs: 00000000483b00007c3b0000823b0000843b0000b43b0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 543b0000
+    m_LastClickedID: 15188
+    m_ExpandedIDs: 00000000443b0000463b0000483b00004a3b00007e3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,7 +646,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000483b0000
+    m_ExpandedIDs: 00000000443b0000463b0000483b00004a3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,15 +677,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ZeroG
-      m_OriginalName: ZeroG
+      m_Name: Mouse_Look
+      m_OriginalName: Mouse_Look
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 15414
+      m_UserData: 17220
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -788,7 +788,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 27
+  m_LastVerticalScrollValue: 63
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
