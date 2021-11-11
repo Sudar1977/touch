@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/53ClickToMove/ClickToMove.unity
+- path: Assets/14ZeroG/ZeroG.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

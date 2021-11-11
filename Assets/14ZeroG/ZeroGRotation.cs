@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class ZeroGRotation : MonoBehaviour
 {
@@ -16,7 +17,9 @@ public class ZeroGRotation : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
-		GetComponent<Rigidbody>().AddTorque(transform.up*force*Input.GetAxis(horizontalAxisName),forceMode);
-		GetComponent<Rigidbody>().AddTorque(-transform.right*force*Input.GetAxis(verticalAxisName),forceMode);
+		//GetComponent<Rigidbody>().AddTorque(transform.up*force*Input.GetAxis(horizontalAxisName),forceMode);
+		GetComponent<Rigidbody>().AddTorque(transform.up*force* CrossPlatformInputManager.GetAxis(horizontalAxisName),forceMode);
+		//GetComponent<Rigidbody>().AddTorque(-transform.right*force*Input.GetAxis(verticalAxisName),forceMode);
+		GetComponent<Rigidbody>().AddTorque(-transform.right*force* CrossPlatformInputManager.GetAxis(verticalAxisName),forceMode);
 	}
 }

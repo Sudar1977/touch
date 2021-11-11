@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class ZeroGMovement : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class ZeroGMovement : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
-		Vector3 forceDirection = new Vector3(Input.GetAxis(horizontalAxisName),0.0f,Input.GetAxis(forwardAxisName)).normalized;
+		Vector3 forceDirection = new Vector3(CrossPlatformInputManager.GetAxis(horizontalAxisName),0.0f, CrossPlatformInputManager.GetAxis(forwardAxisName)).normalized;
 		GetComponent<Rigidbody>().AddForce(transform.rotation*forceDirection*force,forceMode);
 	}
 }
