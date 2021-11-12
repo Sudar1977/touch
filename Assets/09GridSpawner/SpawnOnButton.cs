@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 [AddComponentMenu("Spawn/Spawn On Button")]
 public class SpawnOnButton : MonoBehaviour
@@ -15,7 +15,7 @@ public class SpawnOnButton : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if(Input.GetButtonDown(buttonName))
+		if(CrossPlatformInputManager.GetButtonDown(buttonName))
 		{
 			Instantiate(objectToSpawn,transform.position,transform.rotation);
 		}

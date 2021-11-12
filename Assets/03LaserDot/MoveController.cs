@@ -17,11 +17,13 @@ public class MoveController : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, Cam.CurrentCoord.y, 0);
         transform.Translate(Vector3.forward * CrossPlatformInputManager.GetAxis("Vertical") * Speed.x * Time.deltaTime);
         transform.Translate(Vector3.right * CrossPlatformInputManager.GetAxis("Horizontal") * Speed.y * Time.deltaTime);
+#if false
         if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
             Body.AddRelativeForce(0, Speed.z * 100, 0);
             Debug.Log("Jump pressed");
         }
+#endif
     }
 }
 
