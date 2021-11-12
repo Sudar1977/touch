@@ -29,6 +29,7 @@ public class MoveToClickLocation : MonoBehaviour
 			{
 				Debug.DrawLine(transform.position, targetPosition,Color.white,1.0f);
 				targetPosition = hit.point;
+				Debug.Log(targetPosition);
 				targetRotation = Quaternion.LookRotation(targetPosition - transform.position);
 				StopAllCoroutines();
 				atTarget = false;

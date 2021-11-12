@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 26
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 37
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 28
+  controlID: 38
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,9 +398,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 123c0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 46a4feffc4f9ffffd8f9fffff4f9fffff8f9ffff3afaffff4cfaffff4efaffff52fbffff443c0000723c0000
+      m_SelectedIDs: e622ffff
+      m_LastClickedID: -56602
+      m_ExpandedIDs: f422ffff0623ffff2a23ffff2e23ffff3a23ffffac72ffff4cc2ffff5ec2ffff7ec2ffff06f5ffff14f5ffff9ef6fffff6f6ffff4efaffff52fbffffd83e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 2.9410837, z: -2.8234003}
+    m_Target: {x: 0, y: 2.1570835, z: -2.8234003}
     speed: 2
-    m_Value: {x: 0, y: 2.9410837, z: -2.8234003}
+    m_Value: {x: 0, y: 2.1570835, z: -2.8234003}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,13 +509,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04996754, y: 0.81641215, z: -0.07146235, w: -0.57084787}
+    m_Target: {x: -0.08275378, y: 0.8305837, z: -0.12834361, w: -0.5355463}
     speed: 2
-    m_Value: {x: -0.049967546, y: 0.81641227, z: -0.071462356, w: -0.5708479}
+    m_Value: {x: -0.0827538, y: 0.83058393, z: -0.12834366, w: -0.5355465}
   m_Size:
-    m_Target: 2.6684275
+    m_Target: 12.124355
     speed: 2
-    m_Value: 2.6684275
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -603,36 +603,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/03LaserDot
+    - Assets/15ZeroGAssist
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/03LaserDot
+  - Assets/15ZeroGAssist
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\geekbrains.ru\Projects\Unity\touch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc3b0000
-    m_LastClickedID: 15324
-    m_ExpandedIDs: 00000000c83b0000ca3b0000cc3b0000ce3b0000
+    m_SelectedIDs: f03b0000
+    m_LastClickedID: 15344
+    m_ExpandedIDs: 00000000c83b0000cc3b0000ce3b0000e83b0000ec3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: 11FunWithBuiltInShaders
+      m_OriginalName: 11FunWithBuiltInShaders
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15336
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -673,19 +673,19 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DualTouchControls
-      m_OriginalName: DualTouchControls
+      m_Name: MyFirst Person Controller
+      m_OriginalName: MyFirst Person Controller
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 15872
+      m_UserData: 15812
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
