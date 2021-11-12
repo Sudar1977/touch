@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\22OxygenBar\PlayerOxygen.cs" />
     <Compile Include="Assets\Sample Assets\Cross Platform Input\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\03LaserDot\Mouse_Look.cs" />
     <Compile Include="Assets\Sample Assets\Characters\First Person Character\Scripts\FirstPersonCharacter.cs" />
     <Compile Include="Assets\21HealthBar\PlayerHealth.cs" />
     <Compile Include="Assets\08AddExplosionForce\ContinuousExplosionForce.cs" />
@@ -99,9 +100,9 @@
     <Compile Include="Assets\Sample Assets\Cross Platform Input\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\18Interact\Interact.cs" />
     <Compile Include="Assets\20GettingInAVehicle\SwitchToVehicleOnInteract.cs" />
+    <Compile Include="Assets\03LaserDot\MoveController.cs" />
     <Compile Include="Assets\06TimeSlow\SpawnObjects.cs" />
     <Compile Include="Assets\Sample Assets\Characters\First Person Character\Scripts\FirstPersonHeadBob.cs" />
-    <Compile Include="Assets\03LaserDot\Mouse_Look.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\03LaserDot\Readme.txt" />
