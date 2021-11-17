@@ -235,7 +235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &224407372
 Transform:
   m_ObjectHideFlags: 0
@@ -420,7 +420,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_RootOrder
@@ -548,6 +548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MyFirst Person ControllerShoot
       objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039149, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -558,11 +562,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.25
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.8234
+      value: -7.8693
       objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_LocalRotation.w

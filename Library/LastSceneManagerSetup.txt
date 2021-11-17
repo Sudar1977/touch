@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/13LightningBall/LightningBall.unity
+- path: Assets/14ZeroG/ZeroG.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

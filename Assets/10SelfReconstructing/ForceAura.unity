@@ -31,7 +31,7 @@ RenderSettings:
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
-  m_SpotCookie: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
@@ -235,7 +235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &224407372
 Transform:
   m_ObjectHideFlags: 0
@@ -264,8 +264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60bca8f58a0b8478e946e6e86658cb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalAxisName: Horizontal
-  verticalAxisName: Vertical
 --- !u!114 &224407374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,50 +276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab79d7f243824f5d9826bd83522c8df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canControl: 1
-  useFixedUpdate: 1
-  movement:
-    maxForwardSpeed: 6
-    maxSidewaysSpeed: 6
-    maxBackwardsSpeed: 6
-    slopeSpeedMultiplier:
-      serializedVersion: 2
-      m_Curve:
-      - time: -90
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - time: 90
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    maxGroundAcceleration: 20
-    maxAirAcceleration: 15
-    gravity: 20
-    maxFallSpeed: 20
-  jumping:
-    enabled: 1
-    baseHeight: 1
-    extraHeight: 1
-    perpAmount: 0
-    steepPerpAmount: .5
-  movingPlatform:
-    enabled: 1
-    movementTransfer: 2
-  sliding:
-    enabled: 1
-    slidingSpeed: 10
-    sidewaysControl: 1
-    speedControl: .400000006
 --- !u!114 &224407375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,15 +288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 1
-  sensitivityX: 15
-  sensitivityY: 0
-  minimumX: -360
-  maximumX: 360
-  minimumY: 0
-  maximumY: 0
-  horizontalAxisName: Mouse X
-  verticalAxisName: Mouse Y
 --- !u!143 &224407376
 CharacterController:
   m_ObjectHideFlags: 0
@@ -416,6 +361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_RootOrder
       value: 0
@@ -531,6 +480,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472370458}
   m_Mesh: {fileID: 10205, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1050043615
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000644976428797525, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_Name
+      value: MyMobyleController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5302894
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9853194
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3740889
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
 --- !u!1001 &1065602038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -676,6 +682,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1350709361
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8975670319655039149, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_Name
+      value: MyFirst Person ControllerShoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.8693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
 --- !u!1 &1714877217
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,15 +824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 2
-  sensitivityX: 10
-  sensitivityY: 10
-  minimumX: 0
-  maximumX: 360
-  minimumY: -60
-  maximumY: 60
-  horizontalAxisName: Mouse X
-  verticalAxisName: Mouse Y
 --- !u!124 &2070517916
 Behaviour:
   m_ObjectHideFlags: 0
