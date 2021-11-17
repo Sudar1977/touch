@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class ActivateMonoBehaviourOnButton : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class ActivateMonoBehaviourOnButton : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if(Input.GetButton(buttonName))
+		if(CrossPlatformInputManager.GetButton(buttonName))
 		{
 			foreach(Behaviour com in componentsToActivate)
 			{

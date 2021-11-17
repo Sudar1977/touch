@@ -5063,7 +5063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forwardAxisName: Vertical
   horizontalAxisName: Horizontal
-  force: 10
+  force: 1
   forceMode: 0
 --- !u!114 &214822830
 MonoBehaviour:
@@ -5079,7 +5079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verticalAxisName: Mouse Y
   horizontalAxisName: Mouse X
-  force: 10
+  force: 1
   forceMode: 0
 --- !u!114 &214822831
 MonoBehaviour:
@@ -5131,7 +5131,64 @@ MonoBehaviour:
   componentsToActivate:
   - {fileID: 214822831}
   - {fileID: 214822832}
-  buttonName: Fire1
+  buttonName: Jump
+--- !u!1001 &502960529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000644976428797525, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_Name
+      value: MyMobyleController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5302894
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9853194
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3740889
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
 --- !u!1 &530104162
 GameObject:
   m_ObjectHideFlags: 0

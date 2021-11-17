@@ -103,6 +103,8 @@
     <Compile Include="Assets\03LaserDot\MoveController.cs" />
     <Compile Include="Assets\06TimeSlow\SpawnObjects.cs" />
     <Compile Include="Assets\Sample Assets\Characters\First Person Character\Scripts\FirstPersonHeadBob.cs" />
+    <Compile Include="Assets\07PhysicsFollower\FollowPositionPhysics.cs" />
+    <Compile Include="Assets\07PhysicsFollower\FollowRotationPhysics.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\03LaserDot\Readme.txt" />
