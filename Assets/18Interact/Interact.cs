@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Interact : MonoBehaviour {
 	public static Interact Instance;
@@ -28,7 +29,7 @@ public class Interact : MonoBehaviour {
 			if(!interactDisabled)
 			{
 				displayInteract = true;
-				if(Input.GetButtonDown(buttonName))
+				if(CrossPlatformInputManager.GetButtonDown(buttonName))
 				{
 					hit.collider.SendMessageUpwards("InteractEvent");
 				}

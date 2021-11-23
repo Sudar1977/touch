@@ -4783,12 +4783,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21573397}
-  m_LocalRotation: {x: 0, y: 0.017451981, z: 0, w: -0.9998477}
+  m_LocalRotation: {x: -0, y: 0.017451981, z: -0, w: -0.9998477}
   m_LocalPosition: {x: 0.1, y: 0, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1257777825}
-  m_RootOrder: 0
+  m_Father: {fileID: 830412308}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &21573401
 MonoBehaviour:
@@ -4860,6 +4860,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+--- !u!4 &830412308 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8975670319943792529, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+  m_PrefabInstance: {fileID: 1387944370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1130703979
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,8 +5047,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.9070835, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 21573400}
+  m_Children: []
   m_Father: {fileID: 1538403742}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5485,6 +5489,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1000644974654729687, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974654729689, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797525, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_Name
       value: MyMobyleController
@@ -5531,6 +5543,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976522335739, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
