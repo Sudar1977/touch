@@ -1,0 +1,135 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18362.1256; Version 1903; 64bit' Language: 'ru' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/geekbrains.ru/Projects/Unity/touch
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60194
+Successfully changed project path to: C:/geekbrains.ru/Projects/Unity/touch
+C:/geekbrains.ru/Projects/Unity/touch
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/geekbrains.ru/Projects/Unity/touch/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   26.21.14.3200
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002022 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.477 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.1 MB.
+System memory in use after: 60.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 2.333100 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.029100 ms MarkObjects: 2.043100 ms  DeleteObjects: 0.144000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/11FunWithBuiltInShaders/Textures/GridSky.png
+  artifactKey: Guid(0acd29fec3a644e5eb4fdd541c6fdfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/11FunWithBuiltInShaders/Textures/GridSky.png using Guid(0acd29fec3a644e5eb4fdd541c6fdfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0be5b98be527aec6eecb735bc73351e') in 0.183931 seconds
+  Import took 0.186141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.926227 seconds.
+  path: Assets/13LightningBall/LightningBallSettings.lighting
+  artifactKey: Guid(d8cd22642f486bd49876861c6ab16c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/13LightningBall/LightningBallSettings.lighting using Guid(d8cd22642f486bd49876861c6ab16c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '8c9a1ab26d6cd1d8bebf6d76b4d084f7') in 0.230654 seconds
+  Import took 0.235742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.633418 seconds.
+  path: Assets/13LightningBall/RandomTextureOffset.cs
+  artifactKey: Guid(4e32bbbc036a74dd7abf580f068a7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/13LightningBall/RandomTextureOffset.cs using Guid(4e32bbbc036a74dd7abf580f068a7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea2b25f63bb1659d4dd0c409483a94') in 0.019842 seconds
+  Import took 0.023159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410819 seconds.
+  path: Assets/13LightningBall/Textures
+  artifactKey: Guid(9f15e2fdc72674cc2945918cd0135986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/13LightningBall/Textures using Guid(9f15e2fdc72674cc2945918cd0135986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63843b7b2116351f2ccb557205554c84') in 0.006352 seconds
+  Import took 0.008592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.313377 seconds.
+  path: Assets/13LightningBall/Textures/Lightning.png
+  artifactKey: Guid(f82dfced5d5a1448080048cac8c83f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/13LightningBall/Textures/Lightning.png using Guid(f82dfced5d5a1448080048cac8c83f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c054a24e8ff321172bc0697567182aa') in 0.017519 seconds
+  Import took 0.020835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047349 seconds.
+  path: Assets/13LightningBall/Textures/Lightning.png
+  artifactKey: Guid(f82dfced5d5a1448080048cac8c83f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/13LightningBall/Textures/Lightning.png using Guid(f82dfced5d5a1448080048cac8c83f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c054a24e8ff321172bc0697567182aa') in 0.013429 seconds
+  Import took 0.016051 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 40.5 MB.
+System memory in use after: 40.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 2.534500 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.032900 ms MarkObjects: 2.293800 ms  DeleteObjects: 0.075900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -428,6 +428,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1000644974654729687, guid: 69e8253aab335aa48a3fcebee88d32bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974654729689, guid: 69e8253aab335aa48a3fcebee88d32bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797525, guid: 69e8253aab335aa48a3fcebee88d32bd, type: 3}
       propertyPath: m_Name
       value: MyMobyleController
@@ -474,6 +482,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: 69e8253aab335aa48a3fcebee88d32bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976522335739, guid: 69e8253aab335aa48a3fcebee88d32bd, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -533,5 +545,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: MyFirst Person Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 3781319071199217517, guid: e57c646ce62fc6c4fb7c04cdb2f6ee0d, type: 3}
+      propertyPath: laser
+      value: 
+      objectReference: {fileID: 100000, guid: 81e01f9564f27431ebd953e2ec31fa0c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57c646ce62fc6c4fb7c04cdb2f6ee0d, type: 3}

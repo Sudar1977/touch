@@ -105,6 +105,13 @@
     <Compile Include="Assets\03LaserDot\MoveController.cs" />
     <Compile Include="Assets\06TimeSlow\SpawnObjects.cs" />
     <Compile Include="Assets\Sample Assets\Characters\First Person Character\Scripts\FirstPersonHeadBob.cs" />
+    <Compile Include="Assets\59FollowMouse\FollowMouse.cs" />
+    <Compile Include="Assets\55DiceRoller3d\SetMaxAngularVelocity.cs" />
+    <Compile Include="Assets\55DiceRoller3d\DisplayCurrentDieValue.cs" />
+    <Compile Include="Assets\55DiceRoller3d\ApplyForceInRandomDirection.cs" />
+    <Compile Include="Assets\55DiceRoller3d\DieValue.cs" />
+    <Compile Include="Assets\56DualStickShooterControls\ShootOnAxisInput.cs" />
+    <Compile Include="Assets\56DualStickShooterControls\MoveOnAxisInput.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\03LaserDot\Readme.txt" />

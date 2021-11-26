@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 116
+  controlID: 111
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 117
+  controlID: 112
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 118
+  controlID: 113
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -220,13 +220,13 @@ MonoBehaviour:
     height: 573
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,9 +398,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1a4b0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: b815feff7e75feff0076feff7c14ffff0064ffff54b3ffff5ee3ffffb0e9ffffa2eaffffb4eaffff88ebffff4af2ffff5cf2ffff8ef5ffff7af6ffff14faffff26faffff28faffff52fbffffb63c0000cc3c0000783e00008e3e0000e63e0000fc3e0000
+      m_SelectedIDs: 668f0000
+      m_LastClickedID: 36710
+      m_ExpandedIDs: a2a6ffffbea6ffffc2a6ffffcaa6ffffd0a6ffffd4a6ffffd8a6ffffdca6ffffe0a6ffffe4a6ffff52a7ffffc2a7ffff58a8ffffa4a8ffff16a9ffff92a9ffff0eaaffff8aaaffff06abffff78abffffeaabffffeeabfffff2abffff62acffff66acffff6aacffff6eacffffdaacffffdeacffffeeacffff4aaeffff6aaeffff74aeffff78aeffff7caeffff80aeffff84aeffff88aeffff8caefffffaaeffff6aafffff00b0ffff4cb0ffffbeb0ffff3ab1ffffb6b1ffff32b2ffffaeb2ffff20b3ffff92b3ffff96b3ffff9ab3ffff0ab4ffff0eb4ffff12b4ffff16b4ffff82b4ffff86b4ffff96b4ffff04b7ffff20b7ffff28b7ffff2cb7ffff30b7ffff34b7ffff38b7ffff3cb7ffff40b7ffffaeb7ffff1eb8ffffb4b8ffff00b9ffff72b9ffffeeb9ffff6abaffffe6baffff62bbffffd4bbffff46bcffff4abcffffbcbcffffc0bcffffc4bcffffc8bcffff34bdffff38bdffff48bdffffe0beffff5abfffff7ec0ffffcef0fffff8f0ffff8af2ffff6ef3ffff7cf3fffff4f5ffff3ef6ffff04faffff40faffff52fbffffe83c0000623f0000be3f0000ea3f0000e4400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.09945452, y: 0.70804876, z: -0.101809286, w: -0.6916723}
   m_Size:
-    m_Target: 9.9028
+    m_Target: 9.842763
     speed: 2
-    m_Value: 9.9028
+    m_Value: 9.842763
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -603,33 +603,33 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/13LightningBall
+    - Assets/56DualStickShooterControls
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/13LightningBall
+  - Assets/56DualStickShooterControls
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\geekbrains.ru\Projects\Unity\touch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 19}
-    m_SelectedIDs: 4a3c0000
-    m_LastClickedID: 15434
-    m_ExpandedIDs: 00000000423c0000443c0000463c0000483c00004a3c0000
+    scrollPos: {x: 0, y: 231}
+    m_SelectedIDs: 16780000
+    m_LastClickedID: 30742
+    m_ExpandedIDs: 00000000743c0000763c0000783c00007a3c00007c3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 12ParticleGlow
-      m_OriginalName: 12ParticleGlow
+      m_Name: 56DualStickShooterControls
+      m_OriginalName: 56DualStickShooterControls
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 15460
+      m_UserData: 30742
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -646,7 +646,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000423c0000443c0000463c0000483c00004a3c0000
+    m_ExpandedIDs: 00000000743c0000763c0000783c00007a3c00007c3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,15 +677,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ParticleGlow
-      m_OriginalName: ParticleGlow
+      m_Name: FollowMouse
+      m_OriginalName: FollowMouse
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 18816
+      m_UserData: 17676
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
