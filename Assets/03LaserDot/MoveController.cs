@@ -7,16 +7,20 @@ public class MoveController : MonoBehaviour
     public Vector3 Speed;
     private Mouse_Look Cam;
     private Rigidbody Body;
+    public string forwardAxisName = "Vertical";
+    public string horizontalAxisName = "Horizontal";
+    public string CameraName = "MainCamera";
+
     private void Start()
     {
-        Cam = GameObject.FindWithTag("MainCamera").GetComponent<Mouse_Look>();
+        Cam = GameObject.FindWithTag(CameraName).GetComponent<Mouse_Look>();
         Body = GetComponent<Rigidbody>();
     }
     void Update()
     {
         transform.rotation = Quaternion.Euler(0, Cam.CurrentCoord.y, 0);
-        transform.Translate(Vector3.forward * CrossPlatformInputManager.GetAxis("Vertical") * Speed.x * Time.deltaTime);
-        transform.Translate(Vector3.right * CrossPlatformInputManager.GetAxis("Horizontal") * Speed.y * Time.deltaTime);
+        transform.Translate(Vector3.forward * CrossPlatformInputManager.GetAxis(forwardAxisName) * Speed.x * Time.deltaTime);
+        transform.Translate(Vector3.right * CrossPlatformInputManager.GetAxis(horizontalAxisName) * Speed.y * Time.deltaTime);
 #if false
         if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {

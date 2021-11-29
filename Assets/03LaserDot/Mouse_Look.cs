@@ -11,15 +11,20 @@ public class Mouse_Look : MonoBehaviour
     public  Vector2 Limit = new Vector2(-70, 80);
     private Vector2 vel;
 
+    public string AxisNameY = "Mouse Y";
+    public string AxisNameX = "Mouse X";
+    public string CameraName = "MainCamera";
+
+
     private void Awake()
     {
-        gameObject.tag = "MainCamera";
+        gameObject.tag = CameraName;
     }
     void Update()
     { 
         NewCoord.x = Mathf.Clamp(NewCoord.x, Limit.x,Limit.y);
-        NewCoord.x -= CrossPlatformInputManager.GetAxis("Mouse Y")*Sensitivity.x;
-        NewCoord.y += CrossPlatformInputManager.GetAxis("Mouse X")*Sensitivity.y;
+        NewCoord.x -= CrossPlatformInputManager.GetAxis(AxisNameY) *Sensitivity.x;
+        NewCoord.y += CrossPlatformInputManager.GetAxis(AxisNameX) *Sensitivity.y;
         CurrentCoord.x = Mathf.SmoothDamp(CurrentCoord.x, NewCoord.x, ref vel.x, Smoothness/100);
         CurrentCoord.y = Mathf.SmoothDamp(CurrentCoord.y, NewCoord.y, ref vel.y, Smoothness/100); 
         transform.rotation=Quaternion.Euler(CurrentCoord.x, CurrentCoord.y, 0);

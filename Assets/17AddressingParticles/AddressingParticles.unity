@@ -5072,6 +5072,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: CameraName
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: forwardAxisName
+      value: Vertical
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: horizontalAxisName
+      value: Horizontal
+      objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039149, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_Name
       value: MyFirst Person ControllerShoot
@@ -5491,11 +5503,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000644974654729687, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1000644974654729689, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797525, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_Name
@@ -5547,7 +5559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976522335739, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}

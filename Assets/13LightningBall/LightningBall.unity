@@ -655,6 +655,18 @@ PrefabInstance:
       propertyPath: objectToSpawn
       value: 
       objectReference: {fileID: 100000, guid: f16c675493b034ed68fb9a077ffc2bb0, type: 3}
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: CameraName
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: forwardAxisName
+      value: Vertical
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: horizontalAxisName
+      value: Horizontal
+      objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039149, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_Name
       value: MyFirst Person ControllerShoot
