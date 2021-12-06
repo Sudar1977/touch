@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_LocalPosition.x
@@ -193,6 +193,10 @@ PrefabInstance:
     - target: {fileID: 8975670319943792528, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319943792555, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
@@ -293,6 +297,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1000644974649235493, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: verticalAxisName
+      value: Mouse Y1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974649235493, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: horizontalAxisName
+      value: Mouse X1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974649235513, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: Name
+      value: Jump1
+      objectReference: {fileID: 0}
     - target: {fileID: 1000644974654729687, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -301,13 +317,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929527, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.425
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929527, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.67501
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929527, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 243
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 133
+      objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797525, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_Name
       value: MyMobyleController (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.9853194
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -360,6 +404,10 @@ PrefabInstance:
     - target: {fileID: 1000644976512131089, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: horizontalAxisName
       value: Horizontal1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644976522335737, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976522335739, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_IsActive
@@ -439,13 +487,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: CameraName
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: forwardAxisName
+      value: Vertical1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319655039124, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: horizontalAxisName
+      value: Horizontal1
+      objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039149, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_Name
       value: MyFirst Person ControllerShoot (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8975670319655039150, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_LocalPosition.x
@@ -498,6 +558,18 @@ PrefabInstance:
     - target: {fileID: 8975670319943792555, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
       propertyPath: m_Name
       value: Main Camera1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319943792555, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319943792559, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: AxisNameX
+      value: Mouse X1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975670319943792559, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
+      propertyPath: AxisNameY
+      value: Mouse Y1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404d9f60da12ed5499c64cf9471cc218, type: 3}
@@ -605,6 +677,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1000644974654729681, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1000644974654729687, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -613,13 +689,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929527, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929527, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.61251
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929527, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5590342
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9686523
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000644974674929529, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -125
+      objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797525, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_Name
       value: MyMobyleController
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1000644976428797530, guid: dd20b2d9cbdf40a428e17a777780d09d, type: 3}
       propertyPath: m_LocalPosition.x
